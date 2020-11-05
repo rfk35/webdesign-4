@@ -1,3 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #333;
+    color: white;
+    line-height: 1.6;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+    opacity: 1;
+}
+
+/* text of the slide */
+.slide .content {
+    position: absolute;
+    bottom: 70px;
+    left: -600px; /* set this to 0 so you can see the content, then change to the negative of the width */
+    width: 600px;
+    opacity: 0px; /* set this after you style the content */
+    background: rgba(255,255,255,.8);
+    color: #333;
+    padding: 35px;
+}
+
+.slide .content h1 {
+    margin-bottom: 10px;
+}
+
+.slide.current .content {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+}
+
+.buttons button#prev {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+}
+
+.buttons button {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.buttons button:hover {
+    background: rgba(255,255,255,.8);
+    color: #333;
+}
+
+/* Background Images */
+.slide:first-child {
+    background-image: url("../images/hero-image-slideshow.jpg");
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+    background-image: url("https://assets.codepen.io/4042354/pexels-harrison-haines-3696395.jpg");
+    background-size: cover;
+}
+
+.slide:nth-child(3) {
+    background-image: url("https://assets.codepen.io/4042354/pexels-vadim-b-127028.jpg");
+  background-size: cover;
+}
+
+/* header menu */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 :root {
@@ -116,8 +219,6 @@ nav a:hover {
   top: 7px;
 }
 
-
-
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
@@ -174,5 +275,4 @@ nav a:hover {
     transform: scale(1, 1);
   }
 }
-
 
