@@ -85,12 +85,12 @@ body {
 
 /* Background Images */
 .slide:first-child {
-    background-image: url("../images/hero-image-slideshow.jpg");
+    background-image: url("../images/Golden-dog.jpg");
   background-size: cover;
 }
 
 .slide:nth-child(2) {
-    background-image: url("https://assets.codepen.io/4042354/pexels-harrison-haines-3696395.jpg");
+    background-image: url("../images/Black-dog.jpg");
     background-size: cover;
 }
 
@@ -99,12 +99,13 @@ body {
   background-size: cover;
 }
 
+
 /* header menu */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 :root {
-  --background: rgba(0, 214, 170, .85);
+  --background: rgba(164, 215, 217);
 }
 
 *, *::before, *::after {
@@ -122,7 +123,8 @@ header {
   background: var(--background);
   padding: 10px;
   text-align: center;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 1000;
 }
@@ -162,7 +164,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -171,7 +173,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: white;
 }
 
 .nav-toggle:checked ~ nav {
