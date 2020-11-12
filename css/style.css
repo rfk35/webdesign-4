@@ -6,12 +6,7 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background: #333;
-    color: white;
-    line-height: 1.6;
-}
+
 
 .slider {
     position: relative;
@@ -114,8 +109,7 @@ box-sizing: border-box;
 
 body {
   margin: 0;
-  background: #222;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', Bold;
   font-weight: 400;
 }
 
@@ -125,7 +119,7 @@ header {
   text-align: center;
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 100.6%;
   z-index: 1000;
 }
 
@@ -278,4 +272,10 @@ nav a:hover {
   }
 }
 
-/* About section */
+/* About Section */
+
+.about {
+    padding-top: 100px;
+    background-color: #455F97 ;
+    text-align: center;
+}

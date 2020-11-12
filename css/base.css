@@ -1,9 +1,6 @@
 /* ------- [ Typography ] ------- */
 /* Based on Perfect Fourth at type-scale.com */
 
-p { 
-	margin: 0 0 1.3em 0;
-}
 
 h1, h2, h3, h4, h5, h6 { 
 	font-family: 'Lato', bold;
@@ -38,7 +35,10 @@ h6 {
 	font-weight: 900;
 }
 
-
+h2 {
+  text-decoration: underline ;
+  text-decoration-color: #E8C874;
+}
 
 .small-text {
 	font-size: 0.75em;
