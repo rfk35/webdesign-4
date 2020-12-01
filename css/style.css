@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 99.35%;
     height: 100%;
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
@@ -278,4 +278,12 @@ nav a:hover {
     padding-top: 100px;
     background-color: #455F97 ;
     text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+    width: 100.6%;
 }
+
+/* Adopt Section */
+
+
+
