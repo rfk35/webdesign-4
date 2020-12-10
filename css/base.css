@@ -45,7 +45,7 @@ h6 {
 
 /* -------- [ Site Links ] -------- */
 a:link {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: underline;
 	outline: 0;
 }
@@ -55,7 +55,7 @@ a:visited {
 	outline: 0;
 }
 a:hover {
-	color: #56627A;
+	color:#5ab3da;
 	text-decoration: underline;
 }
 a:active {
