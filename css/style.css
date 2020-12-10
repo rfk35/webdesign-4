@@ -20,7 +20,7 @@ header {
   text-align: center;
   position: sticky;
   top: 0;
-  width: 101.1%;
+  width: 98.7vw;
   z-index: 1000;
 }
 
@@ -201,7 +201,7 @@ nav a:hover {
     position: relative;
     overflow: hidden;
     height: 90vh;
-    width: 99.85vw;
+    width: 98.7vw;
 }
 
 .slide {
@@ -292,7 +292,7 @@ nav a:hover {
     text-align: center;
     color: #fff;
     padding-bottom: 50px;
-    width: 101.1%;
+    width: 98.7vw;
 }
 
 .about-text {
@@ -311,7 +311,7 @@ nav a:hover {
   background: url(../images/adopt-a-pet-panel.jpg);
   background-size: cover;
   height: 60vh;
-  width: 99.85vw;
+  width: 98.7vw;
   position: relative;
 }
 
@@ -439,7 +439,7 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  width: 99.85vw;
+  width: 98.7vw;
 }
 
 .more-info-content {
@@ -532,7 +532,7 @@ footer{
 .footer-distributed{
 	background-color:#5B77B4;
 	box-sizing: border-box;
-	width: 99.85vw;
+	width: 98.7vw;
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
