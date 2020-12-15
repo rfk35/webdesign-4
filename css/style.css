@@ -318,7 +318,10 @@ nav a:hover {
 .adopt-text {
   position: absolute;
   top: 20vh;
-  left: 75px ;
+  left: 0;
+  width: 45%;
+  padding: 10px;
+  background: rgba(255,255,255,.4);
 }
 
 .adopt-button {
@@ -518,10 +521,7 @@ body{
 
 /* The footer is fixed to the bottom of the page */
 
-footer{
-	position: fixed;
-	bottom: 0;
-}
+
 
 @media (max-height:800px){
 	footer { position: static; }
