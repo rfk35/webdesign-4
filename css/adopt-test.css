@@ -227,20 +227,18 @@
 /* Filter */
 
 .filter-text {
-  top: 50em;
-  left: 40em;
-
+  position: absolute;
+  top: 9.65em;
+  left: 13.45em;
 }
 
-
-
-
+/* DropDown */
 
 /* The container must be positioned relative: */
 .custom-select-1 {
   position: absolute;
   font-family: 'Rubik' Medium;
-  left: 50em;
+  left: 45em;
   top: 23em;
   
 }
