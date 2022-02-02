@@ -229,6 +229,7 @@
   position: absolute;
   top: 9.65em;
   left: 18.999999999em;
+  padding-bottom: 15px;
 }
 /* start container */
 .container {
@@ -364,6 +365,7 @@
 /* Gallery */
 
 .gallery {
+  margin-top: 15px;
   margin: 0px 0px;
   background: #455F97;
 }
