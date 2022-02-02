@@ -364,7 +364,8 @@
 /* Gallery */
 
 .gallery {
-  margin: 10px 50px;
+  margin: 0px 0px;
+  background: #455F97;
 }
 
 .gallery img {
