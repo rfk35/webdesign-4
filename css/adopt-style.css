@@ -355,7 +355,7 @@
 
 .gallery img {
   width: 230px;
-  padding: 15px;
+  padding: 25px;
   transition: 1s;
   transform: scale(1.1);
 }
