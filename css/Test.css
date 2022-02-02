@@ -230,6 +230,25 @@
   top: 9.65em;
   left: 18.999999999em;
 }
+/* start container */
+.container {
+    width: 100%;
+    position: absolute;
+    top: 27%;
+}
+
+/* start top line */
+.top-line {
+    display: block;
+    height: 3px;
+    width: 30%;
+    position: fixed;
+    left: 40%;
+    transform: translateX(20%);
+    color: #E8C874;
+    background-color: #E8C874;
+    
+}
 
 /* DropDown */
 
@@ -286,11 +305,6 @@
 .custom-select-5 select {
   display: none; /*hide original SELECT element: */
 }
-
-
-
-
-
 
 
 .select-selected {
