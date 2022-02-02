@@ -212,16 +212,16 @@
   .p-adopt {
     color: #ffffff;
     font-family: 'Rubik' Medium;
-
     position: relative;
     left: 350px;
     text-align: center;
+    font-size: 1.3em;
   }
 
   /* Line */
 
   .line {
-    height: 500vh;
+    height: 500px;
     width: 100vw;
   }
   
