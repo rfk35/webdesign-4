@@ -225,8 +225,6 @@
     width: 100vw;
   }
 
-  /* Custom Select Dropdown */
-
   .custom-select {
     position: relative;
     font-family: 'Rubik', sans-serif;
@@ -298,7 +296,7 @@
     color: #ffffff;
     font-size: 30px;
     position: absolute;
-    left: 200px;
+    left: 275px;
     bottom: 215px;
     }
 
