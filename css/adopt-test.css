@@ -248,11 +248,21 @@
 .custom-select-2 {
   position: absolute;
   font-family: 'Rubik' Medium;
-  left: 57em;
+  left: 56.60em;
   top: 23em;
 }
 
 .custom-select-2 select {
+  display: none; /*hide original SELECT element: */
+}
+.custom-select-3 {
+  position: absolute;
+  font-family: 'Rubik' Medium;
+  left: 68.30em;
+  top: 23em;
+}
+
+.custom-select-3 select {
   display: none; /*hide original SELECT element: */
 }
 
