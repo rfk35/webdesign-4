@@ -234,9 +234,8 @@
 }
 /* start container */
 .container {
-    width: 100%;
-    position: absolute;
-    top: 27%;
+    display: flex;
+    justify-content: center;
 }
 
 /* start top line */
@@ -255,9 +254,14 @@
 /* DropDown */
 
 /* The container must be positioned relative: */
+
+.custom {
+  font-family: 'Rubik' Medium;
+  width:170px;
+}
+
 .custom-select-1 {
   position: absolute;
-  font-family: 'Rubik' Medium;
   left: 56.99em;
   top: 23em;
 }
@@ -267,7 +271,6 @@
 }
 .custom-select-2 {
   position: absolute;
-  font-family: 'Rubik' Medium;
   left: 68.68em;
   top: 23em;
 }
@@ -277,7 +280,6 @@
 }
 .custom-select-3 {
   position: absolute;
-  font-family: 'Rubik' Medium;
   left: 80.50em;
   top: 23em;
 }
@@ -288,7 +290,6 @@
 
 .custom-select-4 {
   position: absolute;
-  font-family: 'Rubik' Medium;
   left: 92.45em;
   top: 23em;
 }
