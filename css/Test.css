@@ -193,7 +193,6 @@
 
 .adopt {
     height: 40vh;
-    width: 70vw;
   }
   
   .h1-adopt {
@@ -206,7 +205,6 @@
     font-size: 45px;
 
     position: relative;
-    left: 350px;
     text-align: center;
   }
   
@@ -214,7 +212,6 @@
     color: #ffffff;
     font-family: 'Rubik' Medium;
     position: relative;
-    left: 350px;
     text-align: center;
     font-size: 1.3em;
   }
@@ -226,16 +223,29 @@
   
 /* Filter */
 
-.filter-text {
-  position: absolute;
-  top: 9.65em;
-  left: 18.999999999em;
-  padding-bottom: 15px;
+.filter {
+  text-align: center;
 }
+
+.filter-text {
+  padding: 10px;
+  width: 400px;
+  border-bottom: 1px solid #E8C874;
+  margin: 15px auto;
+
+}
+
+
 /* start container */
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+    /*
+    position: absolute;
+        top: 27%;
+
+    */
 }
 
 /* start top line */
@@ -243,7 +253,9 @@
     display: block;
     height: 3px;
     width: 30%;
+    /*
     position: absolute;
+    */
     left: 40%;
     transform: translateX(20%);
     color: #E8C874;
@@ -256,54 +268,71 @@
 /* The container must be positioned relative: */
 
 .custom {
+  width: 170px;
   font-family: 'Rubik' Medium;
-  width:170px;
+  position: relative;
+
 }
 
+/*
 .custom-select-1 {
   position: absolute;
   left: 56.99em;
   top: 23em;
 }
 
+*/
+
 .custom-select-1 select {
   display: none; /*hide original SELECT element: */
 }
+
+/*
 .custom-select-2 {
   position: absolute;
   left: 68.68em;
   top: 23em;
 }
 
+*/
+
 .custom-select-2 select {
   display: none; /*hide original SELECT element: */
 }
+
+/*
 .custom-select-3 {
   position: absolute;
   left: 80.50em;
   top: 23em;
 }
 
+*/
+
 .custom-select-3 select {
   display: none; /*hide original SELECT element: */
 }
 
+/*
 .custom-select-4 {
   position: absolute;
   left: 92.45em;
   top: 23em;
 }
 
+*/
+
 .custom-select-4 select {
   display: none; /*hide original SELECT element: */
 }
 
+/*
 .custom-select-5 {
   position: absolute;
-  font-family: 'Rubik' Medium;
   left: 104.30em;
   top: 23em;
 }
+*/
 
 .custom-select-5 select {
   display: none; /*hide original SELECT element: */
@@ -366,9 +395,14 @@
 
 /* Gallery */
 
-.gallery {
-  margin: 0px 0px;
+.image-gallery {
   background: #455F97;
+}
+
+.gallery {
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
 }
 
 .gallery img {
