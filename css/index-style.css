@@ -323,8 +323,8 @@ nav a:hover {
 .adopt-button {
   border-radius: 25px;
   width: 140px;
-  background-color: #E66351;
-  border: 2px solid #E66351;
+  background-color: #455F97;
+  border: 2px solid #455F97;
   padding: 7px 17px;
   font-size: 15px;
   color: #fff;
@@ -360,11 +360,11 @@ nav a:hover {
 
 .h1-adopt {
   font-family: 'lato' bold;
-  color: #E66351;
+  color: #000000;
 }
 
 .p-adopt {
-  color: #E66351;
+  color: #000000;
   font-family: 'Rubik' Medium;
 }
 
