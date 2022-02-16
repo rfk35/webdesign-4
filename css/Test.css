@@ -228,11 +228,12 @@
 }
 
 .filter-text {
-  padding: 10px;
-  width: 400px;
-  border-bottom: 1px solid #E8C874;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 890px;
+  border-bottom: 2px solid #E8C874;
   margin: 15px auto;
-
+  
 }
 
 
@@ -241,27 +242,12 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-    /*
-    position: absolute;
-        top: 27%;
-
-    */
+  width: 890px;
+  border-bottom: 2px solid #E8C874;
+  margin: 15px auto;
+  padding-bottom: 15px;
 }
 
-/* start top line */
-.top-line {
-    display: block;
-    height: 3px;
-    width: 50%;
-    /*
-    position: absolute;
-    */
-    left: 40%;
-    transform: translateX(20%);
-    color: #E8C874;
-    background-color: #E8C874;
-    
-}
 
 /* DropDown */
 
