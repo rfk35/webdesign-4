@@ -5,7 +5,7 @@
 <title>Mutt Love Rescue</title>
 <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Lato:wght@700&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 <link href="css/base.css" rel="stylesheet" type="text/css">
-<link href="css/adopt-style.css" rel="stylesheet" type="text/css">
+<link href="css/adopt.css" rel="stylesheet" type="text/css">
 <link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/a6ee6ea28d.js" crossorigin="anonymous"></script>
@@ -30,56 +30,29 @@
 
       <section class="background">
       <section class="adopt" data-scroll-index="">
-        <div>
+        
             <h1 class="h1-adopt">Adopt a pet</h1>
             <p class="p-adopt">Ask anyone who has adopted a dog and they’ll tell you their story <br> of love, fun and companionship.
             Why? Because dogs are awesome! <br> Adopting a dog from a rescue is a win-win, for you and the dog. So, what 
             <br>are you waiting for? Begin your search for dogs available for adoption <br> near you today!</p>
-        </div>
+        
          </section> <!-- Adopt-->
 
-         <!-- Lines -->
-         <style>
-          .line-above {
-          position:absolute;
-          margin-top:-13.50em;
-          margin-left:28.25vw;
-          width:43.50vw;
-          border: 2px solid;
-          color:#E8C874;
-          }
-          .line-below {
-          position:absolute;
-          margin-top:-7em;
-          margin-left:28.25vw;
-          width:43.50vw;
-          border: 2px solid;
-          color:#E8C874;
-          }
 
-          </style>
-           
-           <body>
-              <hr class="line-above">
-              <hr class="line-below">
-           </body>
-
-           
-
-
-      <section class="Filter">
+      <section class="filter">
         <h2 class="filter-text">FILTER BY</h2>
-        <div class="custom-select-1" style="width:170px;">
+
+        <div class="container">
+        <div class="custom custom-select-1">
           <select>
             <option value="0">Sex:</option>
             <option value="1">Either</option>
             <option value="2">Male</option>
             <option value="3">Female</option>
-
           </select>
         </div>
 
-        <div class="custom-select-2" style="width:170px;">
+        <div class="custom custom-select-2">
           <select>
             <option value="0">Age:</option>
             <option value="1">Puppy</option>
@@ -89,7 +62,7 @@
           </select>
         </div>
 
-        <div class="custom-select-3" style="width:170px;">
+        <div class="custom  custom-select-3">
           <select>
             <option value="0">Size:</option>
             <option value="1">Small (0-25 lbs)</option>
@@ -99,7 +72,7 @@
           </select>
         </div>
 
-        <div class="custom-select-4" style="width:170px;">
+        <div class="custom custom-select-4">
           <select>
             <option value="0">Color:</option>
             <option value="1">Apricot/Beige</option>
@@ -120,7 +93,7 @@
           </select>
         </div>
 
-        <div class="custom-select-5" style="width:170px;">
+        <div class="custom custom-select-5">
           <select>
             <option value="0">Breed:</option>
             <option value="1">Akita</option>
@@ -145,10 +118,11 @@
             <option value="20">Dogue de Bordeaux</option>
           </select>
         </div>
+      </div>
       </section><!-- Filter-->
-
+    </section> <!-- Background-->
       
-       <section class="Image Gallery">
+       <section class="image-gallery">
 
         <div class="gallery">
           <a href="images/pic1.jpg" data-lightbox="mygallery"> <img src="images/pic1-small.jpg"></a>
@@ -168,24 +142,9 @@
           <a href="images/pic15.jpg" data-lightbox="mygallery"> <img src="images/pic15-small.jpg"></a>
           <a href="images/pic16.jpg" data-lightbox="mygallery"> <img src="images/pic16-small.jpg"></a>
       </div>
+       </section><!--Image gallery-->
 
-
-
-
-
-
-
-
-
-       </section>
-
-
-
-
-
-      </section> <!-- Background-->
-
-      <section class="footer" data-scroll-index="">
+       <section class="footer" data-scroll-index="">
         <footer class="footer-distributed">
     
             <div class="footer-left">
@@ -226,6 +185,11 @@
     
         
     </section>
+
+
+
+      
+
       
 
       <script src="js/dropdown1.js"></script>
