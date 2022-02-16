@@ -223,17 +223,18 @@
   
 /* Filter */
 
+/*
 .filter {
-  text-align: center;
 }
+*/
 
 .filter-text {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
   width: 890px;
   border-bottom: 2px solid #E8C874;
   margin: 15px auto;
-  
+  text-align: center;
 }
 
 
@@ -257,84 +258,39 @@
   width: 170px;
   font-family: 'Rubik' Medium;
   position: relative;
-
 }
-
-/*
-.custom-select-1 {
-  position: absolute;
-  left: 56.99em;
-  top: 23em;
-}
-
-*/
 
 .custom-select-1 select {
   display: none; /*hide original SELECT element: */
 }
 
-/*
-.custom-select-2 {
-  position: absolute;
-  left: 68.68em;
-  top: 23em;
-}
-
-*/
-
 .custom-select-2 select {
   display: none; /*hide original SELECT element: */
 }
-
-/*
-.custom-select-3 {
-  position: absolute;
-  left: 80.50em;
-  top: 23em;
-}
-
-*/
 
 .custom-select-3 select {
   display: none; /*hide original SELECT element: */
 }
 
-/*
-.custom-select-4 {
-  position: absolute;
-  left: 92.45em;
-  top: 23em;
-}
-
-*/
-
 .custom-select-4 select {
   display: none; /*hide original SELECT element: */
 }
-
-/*
-.custom-select-5 {
-  position: absolute;
-  left: 104.30em;
-  top: 23em;
-}
-*/
 
 .custom-select-5 select {
   display: none; /*hide original SELECT element: */
 }
 
-
 .select-selected {
   background-color: DodgerBlue;
   border-radius:13px;
+  
 }
 
 /* Style the arrow inside the select element: */
 .select-selected:after {
   position: absolute;
   content: "";
-  top: 14px;
+  top: 20px;
   right: 10px;
   width: 0;
   height: 0;
