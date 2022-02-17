@@ -314,7 +314,7 @@ nav a:hover {
 .adopt-text {
   position: absolute;
   top: 20vh;
-  left: 0;
+  left: 10px;
   width: 45%;
   padding: 10px;
   background: rgba(255,255,255,.4);
