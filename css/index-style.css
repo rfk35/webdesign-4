@@ -27,6 +27,9 @@ header {
   margin: 0;
 }
 
+
+/* animated nav*/
+
 .nav-toggle {
   display: none;
 }
@@ -314,9 +317,8 @@ nav a:hover {
 .adopt-text {
   position: absolute;
   top: 20vh;
-  left: 10px;
   width: 45%;
-  padding: 10px;
+  padding: 35px;
   background: rgba(255,255,255,.4);
 }
 
@@ -434,6 +436,7 @@ nav a:hover {
   background-color: #455F97 ;
   text-align: center;
   color: #fff;
+  padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
