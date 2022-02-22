@@ -223,10 +223,6 @@
   
 /* Filter */
 
-/*
-.filter {
-}
-*/
 
 .filter-text {
   padding-top: 70px;
@@ -238,7 +234,7 @@
 }
 
 
-/* start container */
+/* start filter container */
 .container {
   display: flex;
   justify-content: center;

@@ -23,6 +23,25 @@ header {
   z-index: 1000;
 }
 
+.header-list {
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+.header-logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 39px;
+  grid-column: 2 / 3;
+  margin-right: 50px;
+  margin-bottom: 0;
+}
+*/
+
+img {
+  height: 50px;
+  margin-left: 10em;
+}
+
 .logo {
   margin: 0;
 }
@@ -175,17 +194,7 @@ nav a:hover {
   }
 }
 
-.header-list {
-  font-family: 'Lato', sans-serif;
-}
 
-.header-logo {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 39px;
-  grid-column: 2 / 3;
-  margin-right: 50px;
-  margin-bottom: 0;
-}
 
 /* Slideshow things */
 
@@ -312,6 +321,7 @@ nav a:hover {
   background-size: cover;
   height: 60vh;
   position: relative;
+  padding-bottom: 30px;
 }
 
 .adopt-text {
