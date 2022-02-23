@@ -23,6 +23,30 @@
     z-index: 1000;
   }
   
+  .header-list {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  .header-logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
+    grid-column: 2 / 3;
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+
+
+.logotype {
+  height: 50px;
+  margin-left: 10em;
+}
+
+.background {
+    background: #455F97;
+    padding-bottom: 30px;
+}
+
   .logo {
     margin: 0;
   }
@@ -172,22 +196,6 @@
     }
   }
   
-  .header-list {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .header-logo {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 39px;
-    grid-column: 2 / 3;
-    margin-right: 50px;
-    margin-bottom: 0;
-  }
-
-.background {
-    background: #455F97;
-    padding-bottom: 30px;
-}
 
   /* Adopt Section */
 
