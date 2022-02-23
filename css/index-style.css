@@ -37,7 +37,7 @@ header {
 }
 */
 
-img {
+.logotype {
   height: 50px;
   margin-left: 10em;
 }
@@ -321,7 +321,7 @@ nav a:hover {
   background-size: cover;
   height: 60vh;
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .adopt-text {
