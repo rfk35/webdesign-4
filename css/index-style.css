@@ -321,12 +321,12 @@ nav a:hover {
   background-size: cover;
   height: 60vh;
   position: relative;
-  margin-bottom: 30px;
+  
 }
 
 .adopt-text {
   position: absolute;
-  top: 20vh;
+  top: 15vh;
   width: 45%;
   padding: 35px;
   background: rgba(255,255,255,.4);
